@@ -1,0 +1,12 @@
+Tag:
+An HTML tag is a snippet of code enclosed within angle brackets that defines the purpose and structured of specific element on a webpage. Tags are used to instruct the webbrowser how to display the content they enclose.
+Ex:
+<h1>This is a heading tag </h1>
+ in this example ,<h1> is the opening tag , and </h1> is the closing tag. the content "This is heading tag"is the text with in the heading element
+Element:
+An HTML element is a complete unit that includes an opening tag, content, and a closing tag. It represents a 
+distinct part of a webpage's content or structure. Elements are composed of tags and the content enclosed 
+between those tags
+<p>This is a paragraph</p>
+In this example, <p> is the opening tag, "This is a paragraph element." is the content, and </p> is the closing tag. 
+Together, they form the complete <p> element, representing a paragraph of text

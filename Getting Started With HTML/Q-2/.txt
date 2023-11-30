@@ -1,0 +1,7 @@
+Comments in HTML used for documenting your code, Explaining its purpose,making notes or
+ temporarly disabiling parts of the code without deleting them.Comments are ignored by 
+ the browser and do not affect the rendering of the webpage.
+ 
+. The first comments provides an explanation about the purpose of the heading
+. The second comments used to disable the paragraph temporarly . 
+if you remove the <!-- and--> around the <p> tag , the paragraph will be displayed.

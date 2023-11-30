@@ -1,0 +1,9 @@
+external {
+  color: blue;
+}
+.int__external {
+  color: green;
+}
+.inline__internal__external {
+  color: bisque;
+}

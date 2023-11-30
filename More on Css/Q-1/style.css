@@ -1,0 +1,12 @@
+nav {
+  background-color: #6495ed;
+  padding: 15px;
+}
+a {
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a:hover {
+  color: #000;
+}

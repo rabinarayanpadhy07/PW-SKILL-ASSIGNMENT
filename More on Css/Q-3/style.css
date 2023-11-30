@@ -1,0 +1,32 @@
+nav {
+  background-color: #6495ed;
+  padding: 25px;
+}
+a {
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a:hover {
+  color: #000;
+}
+.nav1{
+  border:2px solid black ;
+  padding: 5px;
+}
+.nav2{
+  border: 2px dashed black;
+  padding: 5px;
+}
+.nav3{
+  border: 2px dotted black;
+  padding: 5px;
+}
+.nav4{
+  border: 2px double black;
+  padding: 5px;
+}
+.nav5{
+  border: 2px groove black;
+  padding: 5px;
+}

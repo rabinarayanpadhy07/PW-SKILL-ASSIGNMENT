@@ -1,0 +1,13 @@
+Semantic HTML: 
+Structure your code using meaningful HTML elements that accurately represent the content and its purpose. 
+This allows assistive technologies like screen readers to interpret the content correctly and provide users with a comprehensive understanding of the webpage.
+
+Descriptive Links and Headings: 
+Employ clear and concise link text that accurately conveys the destination of the link. 
+Utilize heading tags (h1, h2, h3, etc.) appropriately to organize the page structure and create a hierarchy of information. 
+This helps users navigate the page effectively and grasp the overall content organization.
+
+Alternative Text for Images: 
+Provide alternative text (alt text) for all images on the page. 
+Alt text should be a concise and descriptive explanation of the image's content and purpose. This enables screen readers to convey the visual information to users with visual impairments, ensuring they can comprehend the context of the image.
+Implementing these three strategies will significantly enhance the accessibility of your HTML websites, making them more inclusive and usable for a wider audience.
