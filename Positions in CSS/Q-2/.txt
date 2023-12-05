@@ -1,0 +1,29 @@
+Explain the difference between Absolute and Relative positioning ?
+(ANS)-:
+Absolute:
+1.Syntax
+{
+ position:absolute;
+}
+
+2. with reletive positioning an element can be moved up,left,right
+ from its original position.
+
+3. it will not break the normal document flow to position the
+eleement of the page.
+
+4.The element will leave the space at its original position & other
+content will not be adjusted to fit into any gap left by the element.
+
+Relative:
+1.Syntax{
+position:relative;
+}
+
+2. with absolute positioning an element is positioned relative to its nearest positioned
+ancestor.
+
+3.it will break the normal document flow to 
+position the element on the page.
+
+4. the element will not leave any space in its original position
