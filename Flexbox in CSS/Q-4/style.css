@@ -1,0 +1,59 @@
+body p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.pricing-section {
+  min-height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f4f2fd;
+  box-sizing: border-box;
+}
+.card {
+  width: 250px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 7px;
+  padding-top: 50px;
+  padding-left: 35px;
+}
+.h1 {
+  font-size: 36px;
+}
+.pricing {
+  font-size: 36px;
+  font-weight: 100;
+  margin: 12px 0;
+}
+.features {
+  display: flex;
+  align-items: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-left: -35px;
+}
+.subscrieb {
+  background-color: #202842;
+  color: #fff;
+  border-radius: 24px;
+  font-size: 18px;
+  padding: 10px 35px;
+  margin: 30px auto;
+  border-color: transparent;
+}
+.dark {
+  background-color: #202842;
+  color: #fff;
+}
+.db {
+  background-color: #fff;
+  color: black;
+}
