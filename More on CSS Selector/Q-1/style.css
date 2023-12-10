@@ -1,0 +1,52 @@
+/* A - creted a css file 
+
+
+B1 First targeted all the anchor tags
+*/
+
+header > nav > div > ul > li > a {
+  color: red;
+}
+
+/* B2- Targeted the first h2 tag */
+nav > h2 {
+  background-color: aqua;
+}
+
+/* B2- Targeted the first p tag */
+div + p {
+  color: red;
+}
+
+/* C1- Targeted the anchor tag with hred attribute */
+a[href] {
+  color: red;
+  text-decoration: none;
+}
+
+/* C-2 Targeted the achor tag with class name active and changed the text color  */
+a[class="active"] {
+  color: green;
+  text-decoration: underline;
+}
+
+/* C-2 Selected the anchor tag with target value _self  */
+a[target="_self"] {
+  background-color: purple;
+}
+
+/* D1- Targeted the last p tag and add ...  */
+p:last-child::after {
+  content: "...";
+}
+
+/* D2- Targeted the bullets of li tag  */
+li::marker {
+  color: red;
+}
+
+/* D3- Targeted the 2nd p tag and changed the style of first letter p  */
+p:nth-child(even)::first-letter {
+  color: blue;
+  font-size: 30px;
+}

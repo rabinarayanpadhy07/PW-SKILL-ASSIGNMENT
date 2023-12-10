@@ -1,0 +1,53 @@
+:root {
+  --size: 300px;
+  --shift: 150px;
+  --shift-negative: -150px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  perspective: 5000px;
+}
+.cube {
+  height: var(--size);
+  width: var(--size);
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateX(30deg) rotateY(30deg);
+}
+
+.face {
+  height: var(--size);
+  width: var(--size);
+  border: 1px solid black;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.4);
+}
+
+.face-front {
+  transform: translateZ(var(--shift));
+}
+.face-back {
+  transform: translateZ(var(--shift-negative));
+}
+.face-right {
+  transform: rotateY(-90deg) translateZ(var(--shift-negative));
+}
+.face-left {
+  transform: rotateY(-90deg) translateZ(var(--shift));
+}
+.face-top {
+  transform-origin: center center;
+  transform: rotateX(-90deg) translateZ(var(--shift-negative));
+}
+.face-bottom {
+  transform-origin: center center;
+  transform: rotateX(-90deg) translateZ(var(--shift));
+}
