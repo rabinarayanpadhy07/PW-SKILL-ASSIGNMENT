@@ -1,0 +1,21 @@
+Question: Explain what is JavaScript and ts role in web developement?
+
+Answer:
+
+JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
+
+JavaScript is a weakly typed language (dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments. JavaScript is both an imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements. 
+It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+
+JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.
+
+
+JavaScript is used for: 
+    1. Creating dynamically updating content
+    2. Using animations
+    3. Pop-up menus
+    4. Clickable buttons
+    5. Controlling multimedia
+    6. Displaying timely content updates
+    7. Interactive maps
+    8. Animated 2D/3D graphics

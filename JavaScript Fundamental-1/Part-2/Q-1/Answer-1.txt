@@ -1,0 +1,21 @@
+Question: Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Answer: 
+
+JavaScript operators operate the operands, these are symbols that are used to manipulate a certain value or operand. Operators are used to performing specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. In JavaScript, operators are used to compare values, perform arithmetic operations, etc.
+
+JavaScript Operators: There are various operators supported by JavaScript.
+
+    JS Arithmetic Operators
+
+    JS Assignment Operators
+
+    JS Comparison Operators
+
+    JS Logical Operators
+
+    JS Ternary Operators
+
+    JS Bitwise Operators
+    
+    JS typeof Operator
